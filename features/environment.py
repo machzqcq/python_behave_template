@@ -1,7 +1,10 @@
 from selenium import webdriver
+from colorama import init
+
 
 def before_all(context):
      print("Executing before all")
+     init()
 
 def before_feature(context, feature):
      print("Before feature\n")

@@ -9,12 +9,10 @@ def before_feature(context, feature):
 
 #Scenario level objects are popped off context when scenario exits
 def before_scenario(context,scenario):
-    context.browser = webdriver.Chrome()
-    context.browser.maximize_window()
     print("Before scenario\n")
 
 def after_scenario(context,scenario):
-    context.browser.quit()
+    print("After scenario\n")
 
 def after_feature(context,feature):
      print("\nAfter feature")

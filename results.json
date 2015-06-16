@@ -1,0 +1,72 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features\\first_behave.feature:3",
+      "name": "Add two numbers",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features\\first_behave.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "features\\steps\\first_behave.py:6"
+          },
+          "name": "I have two integers a and b",
+          "result": {
+            "duration": 0.002001047134399414,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features\\first_behave.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features\\steps\\first_behave.py:12"
+          },
+          "name": "I add the numbers",
+          "result": {
+            "duration": 0.0009999275207519531,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features\\first_behave.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features\\steps\\first_behave.py:17"
+          },
+          "name": "I print the addition result",
+          "result": {
+            "duration": 0.002000093460083008,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Python34\\lib\\site-packages\\behave\\model.py\", line 1456, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Python34\\lib\\site-packages\\behave\\model.py\", line 1903, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"features\\steps\\first_behave.py\", line 20, in step_impl",
+              "    raise Exception",
+              "Exception"
+            ],
+            "status": "failed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features\\first_behave.feature:1",
+  "name": "My first behave feature",
+  "status": "failed",
+  "tags": []
+}
+]
